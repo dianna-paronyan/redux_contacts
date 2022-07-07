@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 35px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+table{
+    width: 60%;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+thead{
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.editBtn{
+    padding:10px 15px;
+    background-color: rgb(11, 11, 230);
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.delBtn{
+    padding: 10px 15px;
+    background: red;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.editBtn:hover{
+    background: rgb(25, 25, 236);
+}
+.delBtn:hover{
+    background: rgb(235, 16, 16);
+}
+.addBtn:hover{
+    background: rgb(7, 142, 7);
+}
+
+.addBtn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;    
+}
+
+.updBtn{
+    background-color:darkorange;
+    color: #fff;
+    border: none;
+    cursor: pointer;   
+}
+
