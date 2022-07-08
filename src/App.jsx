@@ -4,6 +4,7 @@ import AddContact from './components/AddContact'
 import EditContact from './components/EditContact'
 import Home from './components/Home'
 import Layout from './components/Layouts/Layout'
+import NotFound from './components/NotFound'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path='/add' element={<AddContact/>} />
           <Route path='/edit/:id' element={<EditContact />} />
         </Route>
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
   )
